@@ -59,18 +59,18 @@ def list_1D():
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
-    hoboken_first_item = hoboken_list[1]
-
+    hoboken_first_item = hoboken_list[0]
+    print(hoboken_first_item)
     ####
     l=[2,3,4,1,5,6,9,10,15,12,13,-2,-6,0,0]
 
     # Inplace sort list l (use .sort() ).
     l.sort()
-
+    print(l)
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
-    new_l = l[3:11]
-    
+    new_l = l[3:10]
+    print(new_l)
    
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
